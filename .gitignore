@@ -1,0 +1,34 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS metadata
+.DS_Store
+
+# Logs and runtime files
+*.log
+
+# Environment and dependency files
+*.env
+.env/
+*.yml
+
+# Conda and pip caches
+conda-meta/
+pip-wheel-metadata/
+
+# VSCode settings (optional)
+.vscode/
+
+# Ignore all CSVs by default
+*.csv
+
+# Allow specific datasets to be tracked
+!Data/
+!Data/bioactivity_data.csv
+!Data/preprocessed_bioactivity_data.csv
+!Data/final_dataset_with_2_classes.csv
+!Data/final_bioactivity_data.csv
