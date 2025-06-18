@@ -1,6 +1,6 @@
 # 🧬 EGFR Bioactivity Prediction using Cheminformatics & Machine Learning
 
-This project explores the prediction of **bioactivity** (IC₅₀) for compounds targeting the **Epidermal Growth Factor Receptor (EGFR)** using molecular fingerprints and physicochemical descriptors. The goal is to distinguish between **active and inactive compounds** with respect to their inhibitory effect on EGFR — a critical target in cancer therapy.
+This project explores the prediction of **bioactivity** (IC₅₀) for compounds targeting the **Epidermal Growth Factor Receptor (EGFR)** using molecular fingerprints and physicochemical descriptors. The goal is to distinguish between **active and inactive compounds** with respect to their inhibitory effect on EGFR, a critical target in cancer therapy.
 
 > 🚀 Built using **Python**, **RDKit**, **scikit-learn**, and **Optuna**, this project is a reproducible pipeline from raw SMILES strings to an optimized Random Forest classifier.
 
@@ -29,7 +29,7 @@ Modern drug discovery is **costly**, **time-consuming**, and faces a high attrit
 - Reduce the cost of wet-lab screening.
 - Offer interpretable insights into structure-activity relationships (SAR).
 
-This project aims to **demonstrate a practical application of CADD** for bioactivity prediction — starting from raw chemical data and ending with a robust machine learning model.
+This project aims to **perform a practical application of CADD** for bioactivity prediction, starting from raw chemical data and ending with a robust machine learning model.
 
 ---
 
@@ -107,7 +107,7 @@ The pipeline includes:
 
 ---
 
-## 🔮 Future Work
+## 🔮 Potential Future Work
 
 - Include **3D structure-based descriptors** or docking scores for richer feature sets.
 - Try **multitask models** for related kinase families.
@@ -137,7 +137,9 @@ pip install -r requirements.txt
 │   ├── 2_feature_engineering.ipynb
 │   └── 3_model_training_evaluation.ipynb
 ├── data/
-│   └── raw_and_cleaned_data.csv  # not included in repo (see .gitignore)
+│   └── raw_and_cleaned_data.csv  # kept in repo for reference
+├── figures/
+│   └── *.png  # plots and visualizations used in the notebook
 ├── requirements.txt
 ├── .gitignore
 └── README.md
