@@ -134,16 +134,16 @@ pip install -r requirements.txt
 
 ```
 .
+├── data/
+│   └── raw_and_cleaned_data.csv  # kept in repo for reference
 ├── notebooks/
 │   ├── 1_data_preprocessing.ipynb
 │   ├── 2_feature_engineering.ipynb
 │   └── 3_model_training_evaluation.ipynb
-├── data/
-│   └── raw_and_cleaned_data.csv  # kept in repo for reference
 ├── figures/
 │   └── *.png  # plots and visualizations used in the notebook
-├── requirements.txt
 ├── .gitignore
+├── Requirements.txt
 └── README.md
 ```
 
