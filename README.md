@@ -154,6 +154,4 @@ This project is a learning experience and a stepping stone in cheminformatics an
 
 ## 🙏 Thank You
 
-Thanks for checking out the project! Hope it helps you get started with bioactivity modeling and cheminformatics.
-
-> _“The more we understand molecular features, the better we can steer drug discovery.”_
+Thanks for checking out the project! 
