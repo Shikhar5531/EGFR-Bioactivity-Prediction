@@ -124,7 +124,7 @@ Install required packages:
 pip install -r requirements.txt
 ```
 
-*Optionally*: If you're using Conda, an `environment.yml` is also included for full reproducibility.
+*Optionally*: The method to install **Conda** is given in the second notebook.
 
 ---
 
