@@ -126,7 +126,7 @@ Install required packages:
 pip install -r requirements.txt
 ```
 
-*Optionally*: The method to install **Conda** is given in the second notebook.
+*Note*: The method to install **Conda** is given in the second notebook. 
 
 ---
 
@@ -136,15 +136,16 @@ pip install -r requirements.txt
 .
 ├── data/
 │   └── raw_and_cleaned_data.csv  # kept in repo for reference
+├── figures/
+│   └── *.png  # plots and visualizations used in the notebook
 ├── notebooks/
 │   ├── 1_data_preprocessing.ipynb
 │   ├── 2_feature_engineering.ipynb
 │   └── 3_model_training_evaluation.ipynb
-├── figures/
-│   └── *.png  # plots and visualizations used in the notebook
 ├── .gitignore
-├── Requirements.txt
-└── README.md
+├── LICENSE
+├── README.md
+└── Requirements.txt
 ```
 
 ---
