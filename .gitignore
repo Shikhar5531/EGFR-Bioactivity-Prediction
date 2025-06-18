@@ -20,7 +20,7 @@ __pycache__/
 conda-meta/
 pip-wheel-metadata/
 
-# VSCode settings (optional)
+# VSCode settings
 .vscode/
 
 # Ignore all CSVs by default
