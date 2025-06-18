@@ -1,5 +1,7 @@
 # 🧬 EGFR Bioactivity Prediction using Cheminformatics & Machine Learning
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 This project explores the prediction of **bioactivity** (IC₅₀) for compounds targeting the **Epidermal Growth Factor Receptor (EGFR)** using molecular fingerprints and physicochemical descriptors. The goal is to distinguish between **active and inactive compounds** with respect to their inhibitory effect on EGFR, a critical target in cancer therapy.
 
 > 🚀 Built using **Python**, **RDKit**, **scikit-learn**, and **Optuna**, this project is a reproducible pipeline from raw SMILES strings to an optimized Random Forest classifier.
