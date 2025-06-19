@@ -115,6 +115,7 @@ The pipeline includes:
 - Try **multitask models** for related kinase families.
 - Use **confidence-based predictions** (e.g., conformal prediction).
 - Explore **ensemble stacking** or **graph neural networks** for deeper learning.
+- A future version could incorporate **regression modeling** for intermediate bioactivity ranges **(pIC50 6–7.5)**, enabling a hybrid **classification-regression pipeline**.
 
 ---
 
