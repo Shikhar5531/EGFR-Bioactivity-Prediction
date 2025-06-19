@@ -95,7 +95,7 @@ The pipeline includes:
 
 ## 🧠 Key Insights
 
-- **Fingerprint features dominate** in feature importance — confirming that specific substructures are vital in EGFR inhibition.
+- **Fingerprint features dominate** in feature importance, confirming that specific substructures are vital in EGFR inhibition.
 - **Physicochemical descriptors**, particularly LogP and MW, still ranked high (8th and 11th), reinforcing traditional SAR relevance.
 - **class_weight='balanced'** was crucial to achieve fairness across classes. Without it, the model overestimated performance on active compounds.
 
@@ -105,7 +105,7 @@ The pipeline includes:
 
 - **EGFR** is a validated cancer target involved in cell proliferation and survival.
 - This model mimics early-stage **virtual screening**: prioritizing which molecules should be tested in vitro.
-- False negatives (actives missed) could be **novel scaffolds**, while false positives might indicate **structurally similar but biologically inactive compounds** — important leads for further research.
+- False negatives (actives missed) could be **novel scaffolds**, while false positives might indicate **structurally similar but biologically inactive compounds**, important leads for further research.
 
 ---
 
