@@ -119,6 +119,30 @@ The pipeline includes:
 
 ---
 
+## 🚧 Limitations
+
+This project was designed with a **narrow and well-defined scope**: predicting bioactivity for compounds targeting the **EGFR** protein in **humans**, using data filtered to include only:
+
+- A **single assay type** (`B` – binding assay)
+- A **single relation type** (`=` – exact IC₅₀ values)
+- A **single target protein** (EGFR)
+
+As a result, the model is **not generalizable** to:
+
+- Other protein targets (even within the kinase family)
+- Different species or assay types
+- Broader IC₅₀ ranges or regression-based activity prediction
+
+The purpose of this project was not to build a production-level model, but to:
+
+- Gain hands-on experience with real-world chemical bioactivity data
+- Apply machine learning rigorously in a **cheminformatics** setting
+- Understand the foundational steps of **virtual screening**
+
+This focused approach allowed for deeper learning, but also naturally limits the model’s current applicability to other biological scenarios.
+
+---
+
 ## ⚙️ Installation
 
 Install required packages:
