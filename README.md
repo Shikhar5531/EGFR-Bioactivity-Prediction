@@ -110,14 +110,6 @@ The pipeline includes:
 
 ---
 
-## 🔮 Potential Future Work
-
-- Include **3D structure-based descriptors** or docking scores for richer feature sets.
-- Explore **ensemble stacking** or **graph neural networks** for deeper learning.
-- A future version could incorporate **regression modeling** for intermediate bioactivity ranges **(pIC50 6–7.5)**, enabling a hybrid **classification-regression pipeline**.
-
----
-
 ## 🚧 Limitations
 
 This project was designed with a **narrow and well-defined scope**: predicting bioactivity for compounds targeting the **EGFR** protein in **humans**, using data filtered to include only:
